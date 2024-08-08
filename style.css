@@ -80,9 +80,6 @@ h6 {
 	color: #ffffff;
 }
 
-nav-scroll .navbar-link  {
-	color: #333;
-}
 .nav-scroll .navbar-brand img {
 	-webkit-transform: scale(1.03) !important;
 	transform: scale(1.03) !important;
@@ -302,7 +299,7 @@ nav-scroll .navbar-link  {
 	height: 100%;
 }
 .single-feature {
-	margin-bottom: 80px;
+	margin-bottom: 48px;
 	margin-top: 40px;
 }
 .single-feature h5 {
