@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Fotomaton Retro</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/css/animate.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img
+          src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/LOGO-FOTOMATON-RETRO.jpg" alt="logo"
+          class="logo-1"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+          class="fas fa-bars"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">¡Hola! </a></li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">Servicios</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Precios</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Fotos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">¡Gracias!</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contacto</a> </li>
+          <li class="nav-item" style="display: none;">
+            <a class="nav-link" href="https://fotomatonretro1.wordpress.com" onclick="return false;">Blog</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <script>
+    $(document).ready(function () {
+      $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+      });
+    });
+  </script>
+
+  <!-------Banner ------->
+  <section class="banner" data-scroll-index='0'>
+    <div class="banner-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <div class="banner-text">
+              <div class="text-home">
+                <h2 class="white">LA MEJOR OPCIÓN PARA TU EVENTO</h2>
+                <h6 class="white">Alquila tu FOTOMATON o VIDEO 360º para <a href="http://w3Template.com" target="_blank"
+                    rel="dofollow" class="weblink">tu BODA, EVENTO o FIESTA</a> </h6>
+              </div>
+              <div class="image-container">
+                <div class="col-md-4 d-none d-md-block d-lg-block"> <img
+                    src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/estrellas_valoraciones.png"
+                    class="logos-valoraciones" /> </div>
+              </div>
+              <p class="banner-text white"></p>
+            </div>
+          </div>
+          <div id="tiras" class="col-md-4 col-sm-12"> <img class="tiras wow fadeInUp"
+              src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/tiras.png" /> </div>
+        </div>
+      </div>
+    </div>
+    <span class="svg-wave"> <img class="svg-hero"
+        src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/applight-wave.svg"> </span>
+  </section>
+
+  <!-------SERVICIOS------->
+  <section class="feature section-padding" data-scroll-index='1'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sectioner-header text-center">
+            <h3>SERVICIOS</h3>
+            <span class="line"></span>
+            <p>Tenemos 2 fotomatones retro y un VIDEO 360º perfectos para tu evento</p>
+          </div>
+          <div class="section-content text-center">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="media-body text-right media-right-margin">
+                    <h5>FOTOS SIN LÍMITE + CALIDAD</h5>
+                    <p>No hay límite de fotos durante el servicio. Usamos cámara de calidad.</p>
+                  </div>
+                  <div class="media-right icon-border"> <span class="fa fa-camera-retro" aria-hidden="true"></span>
+                  </div>
+                </div>
+                <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="media-body text-right media-right-margin">
+                    <h5>DISEÑO PERSONALIZADO</h5>
+                    <p>Diseño con los datos del evento.</p>
+                  </div>
+                  <div class="media-right icon-border"> <span class="fa fa-pen" aria-hidden="true"></span>
+                  </div>
+                </div>
+                <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="media-body text-right media-right-margin">
+                    <h5>2 HORAS DE SERVICIO + TÉCNICO</h5>
+                    <p>Técnico supervisando el servicio. Si necesitas más tiempo, indícanos las horas extra que quieras
+                      contratar.</p>
+                  </div>
+                  <div class="media-right icon-border"> <span class="fa fa-clock" aria-hidden="true"></span> </div>
+                </div>
+                <div class="media single-feature wow fadeInUp" data-wow-delay="0.8s">
+                  <div class="media-body text-right media-right-margin">
+                    <h5>ATREZZO + FONDO ROLL UP</h5>
+                    <p>Traemos complementos divertidos para las fotos y un fondo simulación telón rojo.</p>
+                  </div>
+                  <div class="media-right icon-border"> <span class="fa fa-glasses" aria-hidden="true"></span> </div>
+                </div>
+              </div>
+              <div class="col-md-2 d-none d-md-block d-lg-block">
+                <div class=> <img class="imagen-fotomaton wow fadeInUp"
+                    src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/fotomaton-foto.png" /> </div>
+              </div>
+              <div class="col-md-2 d-none d-md-block d-lg-block">
+                <img img class="imagen-360 wow fadeInUp"
+                  src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/360-foto.png"
+                  class="img-fluid wow fadeInUp" />
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="media-left icon-border media-right-margin"> <span class="fa fa-video"
+                      aria-hidden="true"></span> </div>
+                  <div class="media-body text-left">
+                    <h5>SIN LÍMITE DE VÍDEOS + CALIDAD</h5>
+                    <p>Descarga individual de cada vídeo con QR para cada invitado.</p>
+                  </div>
+                </div>
+                <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="media-left icon-border media-right-margin"> <span class="fa fa-pen"
+                      aria-hidden="true"></span></div>
+                  <div class="media-body text-left">
+                    <h5>DISEÑO PERSONALIZADO</h5>
+                    <p>Diseño con los datos del evento.</p>
+                  </div>
+                </div>
+                <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="media-left icon-border media-right-margin"> <span class="fa fa-clock"
+                      aria-hidden="true"></span> </div>
+                  <div class="media-body text-left">
+                    <h5>2 HORAS DE SERVICIO + TÉCNICO</h5>
+                    <p>Técnico supervisando el servicio. Si necesitas más tiempo, indícanos las horas extra que quieras
+                      contratar.</p>
+                  </div>
+                </div>
+                <div class="media single-feature wow fadeInUp" data-wow-delay="0.8s">
+                  <div class="media-left icon-border media-right-margin"> <span class="fa fa-glasses"
+                      aria-hidden="true"></span> </div>
+                  <div class="media-body text-left">
+                    <h5>ATREZZO + CONFETTI</h5>
+                    <p>Traemos complementos divertidos y confetti.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------PRECIOS------->
+  <section class="about section-padding prelative" data-scroll-index='2'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sectioner-header text-center">
+            <h3>PRECIOS</h3>
+            <span class="line"></span>
+            <p>Alquila la opción que más se adapte a tu evento</p>
+          </div>
+          <div class="section-content text-center">
+            <div class="row">
+              <!-- Primera columna -->
+              <div class="col-md-4">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                  <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                  <h5>FOTOMATON</h5>
+                  <div class="destacado">
+                    <p>Incluye:<br></p>
+                  </div>
+                  <p>2 horas de servicio, Diseño personalizado, Sín límite de fotos, Alta Calidad, Descarga digital de
+                    todas las fotos y gif animados, Transporte (província Barcelona), Técnico durante el servicio,
+                    Atrezzo y Fondo Roll up.</p>
+                  <br>
+                  <div class="destacado">
+                    <p>Regalo de álbum para pegar copias y dedicatorias.</p>
+                  </div>
+                  <div class="precios">
+                    <h2>390 €</h2>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Segunda columna -->
+              <div class="col-md-4">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                  <i class="fa fa-video" aria-hidden="true"></i>
+                  <h5>VIDEO 360º</h5>
+                  <div class="destacado">
+                    <p>Incluye:<br></p>
+                  </div>
+                  <p>2 horas de servicio, Diseño personalizado, Sín límite de vídeos, Alta Calidad, Descarga digital de
+                    vídeos con QR, Transporte (província Barcelona), Técnico durante el servicio, Atrezzo y Confetti.
+                  </p>
+                  <br>
+                  <div class="precios">
+                    <h2>450 €</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Tercera columna -->
+              <div class="col-md-4">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <h5>FOTOMATON + VIDEO 360º</h5>
+                  <div class="precios">
+                    <h2>799 €</h2>
+                  </div>
+                  <br>
+                  <h5>HORA EXTRA</h5>
+                  <div class="precios">
+                    <h2>99 €</h2>
+                  </div>
+                  <p>Según evento.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------GALERIA------->
+  <section class="team section-padding video-overlay" data-scroll-index='3'>
+    <div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sectioner-header text-center">
+            <h3>MÁS VALEN FOTOS QUE PALABRAS</h3>
+            <span class="line"></span>
+          </div>
+          <div class="section-content text-center">
+            <!-- Galería de imágenes -->
+            <div class="gallery">
+              <div class="gallery-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@c1a95b6a5fbe3dca89ee1ca5e127eda82bd7e83e/images/Fotomaton3.jpeg"
+                  alt="Descripción de la imagen 1">
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@b02fcbc59a52439fddd75cc7aa4ffed99681fde0/images/Fotomaton2.jpeg"
+                  alt="">
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@228997132e4cabb24ea8b8d91e79d48f931ec380/images/Fotomaton9.jpg"
+                  alt="">
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@c1a95b6a5fbe3dca89ee1ca5e127eda82bd7e83e/images/Fotomaton5.jpeg"
+                  alt="">
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@c1a95b6a5fbe3dca89ee1ca5e127eda82bd7e83e/images/Fotomaton6.jpeg"
+                  alt="">
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@228997132e4cabb24ea8b8d91e79d48f931ec380/images/Fotomaton7.jpg"
+                  alt="">
+              </div>
+              <div class="gallery-item">
+                <img
+                  src=" https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@c1a95b6a5fbe3dca89ee1ca5e127eda82bd7e83e/images/Fotomaton4.jpeg"
+                  alt="">
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@228997132e4cabb24ea8b8d91e79d48f931ec380/images/Fotomaton8.jpg"
+                  alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------Video 360------->
+  <section class="video-section prelative text-center white">
+    <div class="container">
+      <div class="container">
+        <br>
+        <h2>MIRA EL VIDEO DE NUESTRO 360º</h2>
+        <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+        <div class="video-popup">
+          <div class="video-src">
+            <div class="iframe-src">
+              <iframe src="https://www.youtube.com/embed/05sfFqRcEWg?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------CLIENTES------->
+  <section class="testimonial section-padding" data-scroll-index='4'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sectioner-header text-center white">
+            <h3>YA HAN CONFIADO EN NOSOTROS</h3>
+            <span class="line"></span>
+          </div>
+          <div class="testimonial-info text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@238aa3468373f5c7a731fd615294d1d8f0204f9a/images/logos_clients.png"
+              alt="Clientes" class="testimonial-image">
+          </div>
+          <div class="clients">
+            <div class="row">
+              <div class="clients_cub">
+                <div class="slider">
+                  <div class="slider-item">
+                    <div class="test-img"><img
+                        src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@c426c4558d25e5222259855230a9933c5140699c/images/gavadates.png"
+                        alt="Placeholder" width="157" height="157"></div>
+                    <div class="test-text"><span class="title"><span>Festival de Cine Gavà Dates</span> Evento
+                        Público</span>
+                      Amenizó las dos primeras ediciones del Festival Gavà Dates con alegría. La gente se llevaba
+                      encantada un recuerdo del evento.</div>
+                  </div>
+                  <div class="slider-item">
+                    <div class="test-img"><img
+                        src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@0f32007433688bdfdfb1f8698e5f589a28a751e0/images/Alejandro.png"
+                        alt="Placeholder" width="157" height="157"></div>
+                    <div class="test-text"><span class="title"><span>Álex & Alejandro</span> Boda</span> Excelente
+                      servicio ¡Sin duda os lo recomiendo!
+                      Lo tuvimos en nuestra boda y fue un punto clave para la diversión de los invitados.</div>
+                  </div>
+                  <div class="slider-item">
+                    <div class="test-img"><img
+                        src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@2f36a1fb58096fb14087362d122f40fcb206aed1/images/carmen.png"
+                        alt="Placeholder" width="157" height="157"></div>
+                    <div class="test-text"><span class="title"><span>Pili Pariente</span> Fiesta Cumpleaños</span> Hemos
+                      contratado la plataforma 360 para una fiesta de aniversario y todo ha salido genial, puntualidad,
+                      servicio y vuestra atención.
+                      Muchas gracias por todo!!!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------FAQ------->
+  <section class="faq section-padding prelative" data-scroll-index='5'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sectioner-header text-center">
+            <h3>Preguntas Frecuentes</h3>
+            <span class="line"></span>
+          </div>
+          <div class="section-content">
+            <div class="row">
+              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+                <h4>¿Qué necesito para utilizar el fotomatón o la plataforma video360?
+                </h4>
+                <p>Es importante tener una toma de corriente cerca y estar en un suelo liso. Llevamos alargo de 5 a 10
+                  metros.</p>
+              </div>
+              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+                <h4>¿Pueden los invitados quedarse con el atrezzo utilizado en el servicio?
+                </h4>
+                <p>Nuestros atrezzos no tienen sobre coste porque los reutilizamos en otros servicios por lo que las
+                  personas invitadas
+                  solo pueden usarlo para la foto y deben devolverlo a la mesa.</p>
+              </div>
+
+              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+                <h4>⁠¿Los precios incluyen los desplazamientos?
+                </h4>
+                <p>Los precios no tienen cargo extra si se trata de las provícias de Barcelona o Baix Llobregat.</p>
+              </div>
+              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                <h4>Incluye personal técnico durante el evento?
+                </h4>
+                <p>Siempre durante el servicio hay una persona especializada para que todo funcione bien y dinamización
+                  del servicio.
+                </p>
+              </div>
+              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                <h4>¿Qué sucede con las fotos tomadas en el fotomatón? ¿Se imprimen en el momento?
+                </h4>
+                <p>Las fotos se imprimen al momento. 2 copias, una copia los organizadores del evento y otra copia para
+                  los invitados.Una vez pasado el evento se envía un link para la descarga de todas las fotografías en
+                  alta calidad
+                  .</p>
+              </div>
+              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                <h4>¿En el caso del video360, cómo se descargan los videos al momento?
+                </h4>
+                <p>Los invitados escanean un código QR o escribir la dirección web que facilitamos para acceder a la
+                  galería de vídeos del evento.
+                </p>
+              </div>
+              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                <h4>¿Hay que hacer una paga inicial para reservar fecha?
+                </h4>
+                <p>Para poder reservar la fecha es importante realizar una paga y señal por Bizum.
+                </p>
+              </div>
+              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                <h4>¿Qué fondo se usa en el fotomatón?
+                </h4>
+                <p>Según el evento se usa un rollup simulación telón rojo, fondo propio del sitio o el proporcionado por
+                  el cliente.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------Contacto------->
+  <section class="contact section-padding" data-scroll-index='6'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sectioner-header text-center">
+            <h3>Contacta con nosotros</h3>
+            <span class="line"></span>
+            <p>Explícanos cómo es tu evento. Nuestros servicios harán que sea todo un éxito.</p>
+          </div>
+          <div class="section-content">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-8">
+                <form id="contact_form" action="https://formspree.io/f/xvgpykvb" method="post">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" id="your_name" class="form-input w-100" name="full-name" placeholder="Nombre"
+                        required>
+                    </div>
+                    <div class="col">
+                      <input type="email" id="email" class="form-input w-100" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="col">
+                      <input type="telefon" id="phone" class="form-input w-100" name="phone" placeholder="Teléfono"
+                        required>
+                    </div>
+                  </div>
+                  <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Evento">
+                  <textarea class="form-input w-100" id="message" placeholder="Cuéntanos qué tienes pensado"
+                    name="message"></textarea>
+                  <button class="btn-grad w-100 text-uppercase" type="submit" name="button">Enviar</button>
+                </form>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-info white">
+
+                  <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
+                    <div class="media-body">
+                      <p class="text-uppercase">Teléfono</p>
+                      <p class="text-uppercase"><a class="text-white" href="tel:+34678034972">+34 678034972</a> </p>
+                    </div>
+                  </div>
+                  <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
+                    <div class="media-body">
+                      <p class="text-uppercase">E-mail</p>
+                      <p class="text-uppercase"><a class="text-white"
+                          href="mailto:fotomatonretro@gmail.com">fotomatonretro@gmail.com</a> </p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item media">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@d9d6836b0ef0641713b570dc5e7762510c6aff03/images/instagram-white-icon.webp"
+                      alt="Instagram Logo" style="width: 20px; height: 20px; margin-right: 15px;">
+                    <div class="media-body">
+                      <p class="text-uppercase">Instagram</p>
+                      <p class="text-uppercase">
+                        <a class="text-white" href="https://www.instagram.com/fotomatonretro" target="_blank">
+                          @fotomatonretro
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------Footer------->
+
+  <footer class="footer-copy">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <p id="footer-year">&copy; FOTOMATON RETRO</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const footerYearElement = document.getElementById('footer-year');
+    const currentYear = new Date().getFullYear();
+    footerYearElement.innerHTML = `${currentYear} &copy; FOTOMATON RETRO`;
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+ 
+  <!-- scrollIt js -->
+
+  <script src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/js/scrollIt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/js/wow.min.js"></script>
+  <script>
+    wow = new WOW();
+    wow.init();
+    $(document).ready(function (e) {
+
+      $('#video-icon').on('click', function (e) {
+        e.preventDefault();
+        $('.video-popup').css('display', 'flex');
+        $('.iframe-src').slideDown();
+      });
+      $('.video-popup').on('click', function (e) {
+        var $target = e.target.nodeName;
+        var video_src = $(this).find('iframe').attr('src');
+        if ($target != 'IFRAME') {
+          $('.video-popup').fadeOut();
+          $('.iframe-src').slideUp();
+          $('.video-popup iframe').attr('src', " ");
+          $('.video-popup iframe').attr('src', video_src);
+        }
+      });
+
+      $('.slider').bxSlider({
+        pager: false
+      });
+    });
+
+    $(window).on("scroll", function () {
+
+      var bodyScroll = $(window).scrollTop(),
+        navbar = $(".navbar");
+
+      if (bodyScroll > 50) {
+        $('.navbar-logo img').attr('src', 'https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/LOGO-FOTOMATON-RETRO.jpg');
+        navbar.addClass("nav-scroll");
+
+      } else {
+        $('.navbar-logo img').attr('src', 'https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/LOGO-FOTOMATON-RETRO.jpg');
+        navbar.removeClass("nav-scroll");
+      }
+
+    });
+    $(window).on("load", function () {
+      var bodyScroll = $(window).scrollTop(),
+        navbar = $(".navbar");
+
+      if (bodyScroll > 50) {
+        $('.navbar-logo img').attr('src', 'https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/LOGO-FOTOMATON-RETRO.jpg');
+        navbar.addClass("nav-scroll");
+      } else {
+        $('.navbar-logo img').attr('src', 'https://cdn.jsdelivr.net/gh/jordicast/fotomatonretro@main/images/LOGO-FOTOMATON-RETRO.jpg');
+        navbar.removeClass("nav-scroll");
+      }
+
+      $.scrollIt({
+
+        easing: 'swing',      // Define cómo se animará el desplazamiento en la página. Desplazamiento sea más suave.
+        scrollTime: 900,       // Desplazamiento durará 900 milisegundos 
+        activeClass: 'active', // Clase CSS que se aplicará al enlace correspondiente a la sección activa mientras se realiza el desplazamiento.
+        onPageChange: null,    // No se ejecuta ninguna función adicional cuando se produce un cambio de página.
+        topOffset: -63         // Compensa la altura de un encabezado fijo u otro elemento en la parte superior de la página para que la sección desplazada no quede oculta debajo de él.
+      });
+    });
+
+  </script>
+</body>
+
+</html>
