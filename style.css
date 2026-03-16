@@ -89,7 +89,20 @@ h6 {
 .navbar-style2 .nav-link:after {
 	display: none;
 }
+.whatsapp-navbar {
+background: white;
+border-radius: 50%;
+width: 42px;
+height: 42px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
+.whatsapp-navbar i {
+color: #25D366;
+font-size: 24px;
+}
 .tiras {
 	max-width: 400%;
 	height: 400px;
